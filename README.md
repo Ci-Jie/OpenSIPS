@@ -140,7 +140,7 @@
 
 ### **參考**
 1. http://www.verydemo.com/demo_c230_i1005.html
-2. ttp://www.wjxfpf.com/2015/10/331846.html
+2. http://www.wjxfpf.com/2015/10/331846.html
 
 
 
