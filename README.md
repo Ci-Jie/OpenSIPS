@@ -1,11 +1,10 @@
 **安裝OpenSIPS** 
 =======
-#####更新日期：2015/11/23
-### **版本**
+### 版本
 *   Ubuntu - 14.04 Server
 *   OpenSIPS - 2.1 
 
-### **安裝**
+### 安裝
 1. **更新 apt-get：**
 
    ``sudo apt-get update ``
@@ -138,9 +137,15 @@
 	
 	>備註：如果執行出現錯誤，請檢查 opensips.cfg 、 /var 與 /var/run 權限
 
-### **參考**
-1. http://www.verydemo.com/demo_c230_i1005.html
-2. http://www.wjxfpf.com/2015/10/331846.html
+### 測試軟體(client)
+
+* Mac OS : [Yate Client](http://yateclient.yate.ro/)
+* android : ECOA Sip (可至 Play 商店下載)
+* iOS : zoiper (可至 App Store 下載)
+
+### 參考
+1. [登入 error code 483 處理方式](http://www.wjxfpf.com/2015/10/331846.html)
+2. [open source VOIP Software](http://www.voip-info.org/wiki/view/Open+Source+VOIP+Software)
 
 
 
