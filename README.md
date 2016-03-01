@@ -198,7 +198,7 @@ exit;
 ## 測試軟體
 
 * Mac OS : [Yate Client](http://yateclient.yate.ro/)、Zoiper
-* android : ECOA Sip (可至 Play 商店下載)
+* Android : ECOA Sip (可至 Play 商店下載)
 * iOS :  Zoiper (可至 App Store 下載)
 
 ## 參考
