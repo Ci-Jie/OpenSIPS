@@ -84,6 +84,11 @@ SIP 回應分成 Provisional (暫時)及 Final (決定)兩類，Provisional 為 
 *   Ubuntu - 14.04 Server
 *   OpenSIPS - 2.1 
 
+| 主機  | IP 位址    | 
+| :--: | :------: |
+| SIP Server | 10.21.20.111 |
+
+
 #### 更新 apt-get：
 
 ```
