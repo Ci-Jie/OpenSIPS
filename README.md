@@ -98,9 +98,7 @@ sudo apt-get update
 #### 下載安裝相關套件：
 
 ```
-sudo apt-get install git make bison flex & 
-mysql-server mysql-client libmysqlclient-dev &
-libncurses5 libncurses5-dev 
+sudo apt-get install -y git make bison flex mysql-server mysql-client libmysqlclient-dev libncurses5 libncurses5-dev
 ```
 
 #### 下載 OpenSIPS 套件:
@@ -113,7 +111,7 @@ sudo git clone https://github.com/OpenSIPS/opensips.git -b 2.1 opensips_2_1
 #### 修改配置檔：
 
 ```
-sudo nano ~/opensips_2_1/Makefile.conf.tmplate
+sudo vim ~/opensips_2_1/Makefile.conf.tmplate
 ```
 > 移除 exclude_modules 中 db\_mysql 並儲存
 
@@ -129,7 +127,7 @@ sudo make install
 
    
 ```
-sudo nano /usr/local/etc/opensips/opensipsctlrc
+sudo vim /usr/local/etc/opensips/opensipsctlrc
 
 修改如下，將部分註解刪除
 
@@ -206,7 +204,7 @@ listen=udp:10.21.20.111:5060
 ```
 
 #### 新增 Domain 至資料庫中：
-首先進入 MySQL ，並且輸入下列指令建立 Domain 至 opensips.domain 資料表。
+首先使用 `mysql -u root -p` 指令並輸入密碼後進入 MySQL ，接下來，透過以下指令建立 Domain 至 opensips.domain 資料表。
 
 ```
 INSERT INTO opensips.domain(domain) VALUES('10.21.20.111');
