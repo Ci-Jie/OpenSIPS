@@ -156,7 +156,7 @@ DBROOTUSER="root"
 USERCOL="username"
 ```
 	
-> 如果出現沒有權限修改 opensipsctlrc 請先修改 /usr/local/etc/opensips 權限
+> 若出現 `ERROR: database engine not specified, please setup one in the config script` 錯誤，請修改 /usr/local/etc/opensips 權限。
 
 #### 執行建立資料庫腳本：
    
